@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta  content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+</head>
+<body>
+<canvas id="gameCanvas" style="height: 600px; width: 1000px;"></canvas>
+<script>
+ var canvas, canvasContext
+
+ window.onload = function() {
+
+     canvas = document.getElementById('gameCanvas');
+     canvasContext = canvas.getContext('2d')
+     // Drawing Level (canvas)
+     canvasContext.fillStyle = 'black'
+     canvasContext.fillRect(0,0, canvas.width,canvas.height)
+     // Drawing the Ball
+     
+ }
+</script>
+</body>
+</html>
